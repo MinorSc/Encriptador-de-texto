@@ -40,7 +40,7 @@ main {
 }
 
 
-.mensaje {
+.mensaje{
     background: white;
     background-image: url(/Assets/Muñeco.png);
     background-repeat: no-repeat;
@@ -55,13 +55,14 @@ main {
     /* margin-top: 20px; */
     padding-left: 20px;
     position: absolute;
-
-
 }
+
+
 
 .mensaje:focus {
     outline: none;
 }
+
 
 .botones {
     display: flex;
@@ -120,9 +121,12 @@ main {
 
 }
 
+
 .autor {
     display: flex;
     justify-content: center;
     color: #0A3871;
 
 }
+
+
