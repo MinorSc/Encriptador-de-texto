@@ -199,6 +199,7 @@ main {
     .mensaje__titulo,
     .mensaje__parrafo {
         width: 100%;
+        
     }
 
     .btn-encriptar,
