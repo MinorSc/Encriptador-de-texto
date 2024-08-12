@@ -29,7 +29,7 @@
 
         <section>
             <div>
-                <textarea class="text-area" cols="30" rows="6" placeholder="Ingrese su texto aquí"></textarea>
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese su texto aquí"></textarea>
             </div>
 
 
@@ -49,20 +49,20 @@
             </div>
         </section>
 
-        <section>
-            <!-- <h2 class="mensaje__titulo">Título del Mensaje</h2>
-            <p class="mensaje__parrafo">Este es el párrafo que describe el mensaje encriptado.</p> -->
-            <textarea class="mensaje" cols="20" rows="10"></textarea>
-            <div>
+        <section class="section">
+            <div class="mensaje" id="mensaje__contenedor">
+                <textarea class="mensaje__textarea" cols="20" rows="10"></textarea>
+                <p class="mensaje__titulo" id="myTextarea">Ningún mensaje fue encontrado</p>
+                <p class="mensaje__parrafo" id="myParagraph">Ingresa el texto que desees encriptar o desencriptar.</p>
                 <button class="copiar" id="copiar-btn" onclick="BotonCopiar()">Copiar</button>
-            </div>
+        </div>
         </section>
     </main>
 
 
-    <footer class="autor">
+    <!-- <footer class="autor">
         <p>Desarrollado por Minor Solano</p>
-    </footer>
+    </footer> -->
 
 
 
